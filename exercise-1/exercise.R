@@ -34,7 +34,10 @@ early_meals <- meals[1:2]
 
 # Write a function `add_pizza` that adds pizza to a given meal vector, and
 # returns the pizza-fied vector
-
+add_pizza <- function(meal) {
+  meal <- c(meal, "pizza")
+  meal  # return the new vector
+}
 
 # Create a vector `better_meals` that is all your meals, but with pizza!
 
